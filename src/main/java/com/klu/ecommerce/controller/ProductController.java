@@ -18,7 +18,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin(origins = "http://ec2-54-146-155-159.compute-1.amazonaws.com:5173")
+@CrossOrigin(origins = "http://ec2-54-226-118-155.compute-1.amazonaws.com:5173")
 public class ProductController {
 
     private final ProductRepository productRepository;
